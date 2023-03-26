@@ -5,12 +5,6 @@ font-family: 'Karla', sans-serif;
 font-family: 'Koulen', cursive;
 */
 
-section,header{
-    background-color: #eee;
-    padding: 1rm;
-    margin: 1rem;
-}
-
 #container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -19,9 +13,6 @@ section,header{
     "header header header"
     "test1 test2 test3"
     "test4 test4 test4"
-    "text_1 text_1 title"
-    "stories stories stories"
-    "titleprograms textprograms textprograms";
 }
 
 #nav{grid-area: nav;}
@@ -30,11 +21,3 @@ header{grid-area: header;}
 #test2{grid-area: test2;}
 #test3{grid-area: test3;}
 #test4{grid-area: test4;}
-#text{grid-area: text_1;}
-#title{grid-area: title;}
-#stories{grid-area: stories;}
-#titlestories{grid-area: titlestories;}
-#someone{grid-area: someone;}
-#someone2{grid-area: someone2;}
-#titleprograms{grid-area: titleprograms;}
-#textprograms{grid-area: textprograms;}
