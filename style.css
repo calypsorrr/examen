@@ -15,7 +15,11 @@ font-family: 'Koulen', cursive;
     "test4 test4 test4"
 }
 
-#nav{grid-area: nav;}
+#nav{
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
 header{grid-area: header;}
 #test1{grid-area: test1;}
 #test2{grid-area: test2;}
