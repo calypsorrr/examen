@@ -29,7 +29,8 @@ header{grid-area: header;}
 #test2{grid-area: test2;}
 #test3{grid-area: test3;}
 #test4{grid-area: test4;}
-
+#involvedtext{grid-area: involvedtext;}
+#involvedtitle{grid-area: involvedtitle;}
 #stories{
     grid-area: stories;
     display: grid;
