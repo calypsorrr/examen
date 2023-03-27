@@ -5,14 +5,20 @@ font-family: 'Karla', sans-serif;
 font-family: 'Koulen', cursive;
 */
 
+section,header{
+    background-color: #eee;
+    padding: 1rem;
+    margin: 1rem;
+}
+
 #container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-areas:
     "nav nav nav"
     "header header header"
-    "test1 test2 test3"
-    "test4 test4 test4"
+    "home donate food"
+    "why why why"
     "involvedtext involvedtext involvedtitle"
     "stories stories stories"
     ;
@@ -25,10 +31,10 @@ font-family: 'Koulen', cursive;
 }
 
 header{grid-area: header;}
-#test1{grid-area: test1;}
-#test2{grid-area: test2;}
-#test3{grid-area: test3;}
-#test4{grid-area: test4;}
+#home{grid-area: home;}
+#donate{grid-area: donate;}
+#food{grid-area: food;}
+#why{grid-area: why;}
 #involvedtext{grid-area: involvedtext;}
 #involvedtitle{grid-area: involvedtitle;}
 #stories{
@@ -39,5 +45,16 @@ header{grid-area: header;}
     grid-template-areas: 
         "storytitle caroline"
         "tony caroline";
-    margin-bottom: 50px;
+}
+
+#storytitle{
+    grid-area: storytitle;
+}
+
+#tony{
+    grid-area: tony;
+}
+
+#caroline{
+    grid-area: caroline;
 }
