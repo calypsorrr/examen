@@ -13,6 +13,9 @@ font-family: 'Koulen', cursive;
     "header header header"
     "test1 test2 test3"
     "test4 test4 test4"
+    "involvedtext involvedtext involvedtitle"
+    "stories stories stories"
+    ;
 }
 
 #nav{
@@ -20,8 +23,20 @@ font-family: 'Koulen', cursive;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
+
 header{grid-area: header;}
 #test1{grid-area: test1;}
 #test2{grid-area: test2;}
 #test3{grid-area: test3;}
 #test4{grid-area: test4;}
+
+#stories{
+    grid-area: stories;
+    display: grid;
+    grid-template-columns:repeat(1fr 2fr);
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: 
+        "storytitle caroline"
+        "tony caroline";
+    margin-bottom: 50px;
+}
